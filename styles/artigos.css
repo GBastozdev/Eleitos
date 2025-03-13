@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #ffffff;
+    --cor2: #faa307;
+    --cor3: #6a040f;
+    --cor4:#370617;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: var(--cor3);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: var(--cor4);
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        nav a:hover {
+            background-color: var(--cor2);
+        }
+
+        nav a:active{
+            background-color: var(--cor2);
+            color: var(--cor4);
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: var(--cor3);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .article-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article-item {
+            margin-bottom: 20px;
+        }
+
+        .article-item h3 {
+            color: var(--cor4);
+        }
+
+        .article-item p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .article-item a {
+            color: var(--cor4);
+            text-decoration: none;
+        }
+
+        .article-item a:hover {
+            text-decoration: underline;
+            color: var(--cor2);
+        }
+
+        .article-item a:active{color:black;}
+

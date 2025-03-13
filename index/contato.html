@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de contato da Igreja Cristã - Entre em contato conosco.">
+    <title>Contato - Igreja Cristã</title>
+    <link rel="stylesheet" href="/styles/contato.css">
+    
+</head>
+<body>
+
+<header>
+    <h1>Contato - Eleitos</h1>
+    <p>Entre em contato conosco, seja para mais informações.</p>
+</header>
+
+<nav>
+    <a href="/index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="artigos.html">Artigos</a>
+    <a href="contato.html">Contato</a>
+</nav>
+
+<section>
+    <h2>Fale Conosco</h2>
+    <p>Se você tem alguma dúvida, deseja mais informações, preencha o formulário abaixo e entraremos em contato com você o mais breve possível.</p>
+
+    <!-- Formulário de contato -->
+    <form action="enviar-mensagem.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+</section>
+
+<section class="contact-info">
+    <div class="info-item">
+        <h3>Telefone</h3>
+        <p>(11) 1234-5678</p>
+        <p>(11) 9876-5432</p>
+    </div>
+    <div class="info-item">
+        <h3>E-mail</h3>
+        <p>contato@eleitos.com.br</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Eleitos - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
