@@ -51,9 +51,8 @@
             background-color: var(--cor3);
             color: white;
             text-align: center;
-            padding: 0.5em;
-            bottom: 0;
             width: auto;
+            padding: 5px;
         }
 
         form {
