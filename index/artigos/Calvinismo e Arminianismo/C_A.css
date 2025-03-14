@@ -17,7 +17,8 @@ header {
     background-color: var(--cor3);
     color: white;
     text-align: center;
-    padding: 10px;
+    padding:1px;
+   
 }
 
 header h1{color: var(--cor1);font-size: 40px;}
@@ -35,6 +36,7 @@ article h3{
 
 article p{
     text-indent: 25px;
+    text-align: justify;
 }
 
 nav{
@@ -58,8 +60,19 @@ nav a:hover{
 h1{
     font-size: 35px;
     color: var(--cor4);
+    text-align: center;
 }
-h2, h3{color: var(--cor4);}
+
+#resumo{
+    text-align: center;
+    line-height: 0;
+    font-size: 30px;
+    color: var(--cor4);
+}
+h2,h3{
+    color: var(--cor4);
+}
+
 
 p{text-align: justify;}
 
@@ -80,6 +93,21 @@ body{
     display:block;
     min-height: 100vh;
 }
+table {
+    border-collapse: collapse;
+    width: auto;
+    border-radius: 10px;
+  }
+th{
+   border: solid 1px gray;
+   background-color: rgb(189, 189, 189);
+   padding: 5px;
+}
+td{
+    border: solid gray 1px;
+    text-align: center;
+    padding: 20px;
+}
 
 footer{
     background-color: var(--cor3);
@@ -92,9 +120,4 @@ footer p{
     color: var(--cor1);
     text-align: center;
 }
-
-
-
-
-
 
