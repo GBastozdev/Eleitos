@@ -53,6 +53,8 @@
             text-align: center;
             width: auto;
             padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
         }
 
         form {
