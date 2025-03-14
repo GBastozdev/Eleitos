@@ -11,9 +11,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
     background-color: #f4f4f4;}
-
 
 header {
     background-color: var(--cor3);
@@ -39,7 +37,6 @@ article p{
     text-indent: 25px;
 }
 
-
 nav{
     display: flex;
     justify-content: center;
@@ -58,12 +55,10 @@ nav a:hover{
     background-color: var(--cor2);
 }
 
-
 h1{
     font-size: 35px;
     color: var(--cor4);
 }
-
 h2, h3{color: var(--cor4);}
 
 p{text-align: justify;}
@@ -91,13 +86,11 @@ footer{
     padding: 10px;
     box-sizing: border-box;
 
-
 }
 
 footer p{
     color: var(--cor1);
     text-align: center;
-
 }
 
 
