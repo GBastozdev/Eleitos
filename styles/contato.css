@@ -9,7 +9,7 @@
 
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
+            margin:0;
             padding: 0;
             background-color: #f4f4f4;
         }
@@ -60,6 +60,7 @@
         form {
             display: flex;
             flex-direction: column;
+            margin-right: 20px;
         }
 
         input, textarea {
@@ -87,14 +88,8 @@
             display: flex;
             flex-wrap: wrap;
             justify-content:space-between;
-            margin-bottom: 100px;
-            padding: 0px;
+            margin-bottom: 10px;
+            padding: 0 10px 0 0;
             text-indent: 10px;
-          
-        }
-
-        .info-item {
-            width: 45%;
-            margin-bottom: 20px;
         }
    

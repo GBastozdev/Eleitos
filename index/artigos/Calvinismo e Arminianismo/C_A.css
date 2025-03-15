@@ -11,7 +11,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;}
+    background-color: #f4f4f4;
+    width: 100%;}
+    
 
 header {
     background-color: var(--cor3);
@@ -71,8 +73,8 @@ h1{
 }
 h2,h3{
     color: var(--cor4);
+    line-height: 100%;
 }
-
 
 p{text-align: justify;}
 
@@ -96,7 +98,6 @@ body{
 table {
     border-collapse: collapse;
     width: auto;
-    border-radius: 10px;
   }
 th{
    border: solid 1px gray;
@@ -107,13 +108,13 @@ td{
     border: solid gray 1px;
     text-align: center;
     padding: 20px;
+    padding: 5px;
 }
 
 footer{
     background-color: var(--cor3);
     padding: 10px;
     box-sizing: border-box;
-
 }
 
 footer p{
